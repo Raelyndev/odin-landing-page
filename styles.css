@@ -39,7 +39,9 @@ p {
 }
 
 .navbar {
-    text-align: right;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
 }
 
 .headerlogo {
@@ -66,4 +68,27 @@ p {
 
 .quote-section {
     background-color: #E5E7EB;
+}
+
+.prod-img1 {
+    width: 20px;
+    height: 20px;
+}
+
+.prod-img2 {
+    width: 20px;
+    height: 20px;
+}
+
+.prod-img3 {
+    width: 20px;
+    height: 20px;
+}
+
+.prod-img4 {
+    width: 20px;
+    height: 20px;
+}
+.sub4 {
+
 }
