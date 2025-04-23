@@ -51,6 +51,7 @@ p {
 .hero-text {
     text-align: left;
     color: #E5E7EB;
+    font-size: 18px;
 }
 
 .hero-signup {
@@ -63,7 +64,10 @@ p {
 }
 
 .product-peek {
+    display: flex;
+    flex-flow: row wrap;
     text-align: center;
+    justify-content: space-around;
 }
 
 .quote-section {
@@ -71,24 +75,38 @@ p {
 }
 
 .prod-img1 {
+    display: flex;
+    flex-direction: row;
     width: 20px;
     height: 20px;
+    margin: auto;
 }
 
 .prod-img2 {
+    display: flex;
+    flex-direction: row;
     width: 20px;
     height: 20px;
+    margin: auto;
 }
 
 .prod-img3 {
+    display: flex;
+    flex-direction: row;
     width: 20px;
     height: 20px;
+    margin: auto;
 }
 
 .prod-img4 {
+    display: flex;
+    flex-direction: row;
     width: 20px;
     height: 20px;
+    margin: auto;
 }
-.sub4 {
 
+.sub {
+    font-size: 18px;
+    color: black;
 }
