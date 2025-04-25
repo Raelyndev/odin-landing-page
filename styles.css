@@ -200,18 +200,12 @@ li a {
     height: 2.5vh;
 }
 
-footer {
-    margin: 0;
-    padding: 0;
-}
-
 .foot-text {
     display: flex;
     justify-content: space-around;
     background-color: #1F2937;
-    padding: 1vh;
+    padding: 3vh;
     margin: 0;
-
 }
 
 .foot {
