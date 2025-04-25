@@ -23,11 +23,13 @@
     </div>
     
     <!--Homepage Hero Section--->
-    <div class="hero">
-        <h1>This website is <br>awesome</br></h1>
-        <p class="hero-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-        <p class="button, hero-signup">Sign up!</p>
-        <img src="https://fakeimg.pl/600x400/91ceff/ffffff?text=placeholder&font=noto&font_size=30" alt="this is a placeholder for an image" class="hero-img">
+    <div class="hero-container">
+        <div class="hero-text">
+            <h1>This website is <br>awesome</br></h1>
+            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+            <p class="button, hero-signup">Sign up</p>        
+        </div>
+        <img src="https://dummyimage.com/1000x400/949494/e3e3e3.png&text=this+is+a+placeholder+for+an+image" alt="this is a placeholder for an image" class="hero-img"> 
     </div>
 
     <!--Product Lineup-->
@@ -57,13 +59,19 @@
     </div>
     <h4>-Thor, God of Thunder</h4>
     <!--Footer-->
-    <div>
-        <h5>Call to action! It's time!</h5>
-        <p>Sign up for our product by clicking that button right over there!</p>
-        <p class="button">Sign up</p>
+    <div class="cta">
+        <div class="cta-text">
+            <p style="font-weight:bolder; font-size: 20px;">Call to action! It's time!</p>
+            <p>Sign up for our product by clicking that button right over there!</p>
+        </div>
+        <div class="cta-button-wrapper">
+            <p class="button, cta-button">Sign up</p>
+        </div>
     </div>
 </body>
 <footer>
-    <p>Copyright @ The Odin Project 2021</p>
+    <div class="foot-text">
+        <p class="foot">Copyright @ The Odin Project 2021</p>
+    </div>
 </footer>
 </html>
