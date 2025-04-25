@@ -1,12 +1,17 @@
 body {
-    background-color: a;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
 }
 
+
 h1 {
-    size: 48px;
+    size: 60px;
     color: #F9FAF8;
     font-weight: bolder;
+    padding: 5px;
+    margin-top: 90px;
 }
 
 h2 {
@@ -28,39 +33,73 @@ h4 {
     color: #1F2937;
     text-align: right;
     font-size: 20px;
+    padding: 0px 100px 0px 0px;
 }
 
 .topnav {
     background-color: #1F2937;
-}
-
-p {
-    color: blue;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 100vh;
 }
 
 .navbar {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 15px 12px;
+    text-align: center;
+    text-decoration: none;
 }
 
 .headerlogo {
     color: white;
+    display: flex;
 }
 
+.hero {
+    background-color: #1F2937;
+    margin: 0;
+}
 .hero-text {
     text-align: left;
     color: #E5E7EB;
     font-size: 18px;
+    max-width: 54vh;
 }
 
 .hero-signup {
     color: #E5E7EB;
+    background-color: #3882F6;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 80px;
+    padding: 4px 15px;
 }
 
 .hero-img {
+    display: flex;
+    flex-direction:row;
+    margin: 0;
     color: #F9FAF8;
-    size: 4px;
+    width: 40px;
+    height: 40px;
 }
 
 .product-peek {
@@ -71,7 +110,12 @@ p {
 }
 
 .quote-section {
-    background-color: #E5E7EB;
+    color: #1F2937;
+    font-style: italic;
+    font-weight:lighter;
+    font-size: 26px;
+    text-align: left;
+    padding: 0px 60px 0px 60px;
 }
 
 .prod-img1 {
