@@ -39,8 +39,10 @@ h4 {
 .topnav {
     background-color: #1F2937;
     display: flex;
+    justify-content: space-between;
     padding: 10px;
     margin: 0;
+
 }
 
 .navbar {
@@ -57,10 +59,6 @@ ul {
     display: flex;
 }
 
-li {
-    float: right;
-}
-
 li a {
     display: block;
     color: white;
@@ -70,7 +68,10 @@ li a {
 }
 
 .headerlogo {
+    display: flex;
     color: white;
+    text-align: left;
+
 }
 
 .hero-container {
@@ -110,57 +111,65 @@ li a {
     opacity: 80%;
 }
 
-.product-peek {
-    display: flex;
-    flex-flow: row wrap;
+.product{
     text-align: center;
-    justify-content: space-around;
+    padding: 10px;
 }
 
-.quote-section {
-    color: #1F2937;
-    font-style: italic;
-    font-weight:lighter;
-    font-size: 26px;
-    text-align: left;
-    padding: 0px 60px 0px 60px;
+.prod-title {
+    margin-bottom: 30px;
 }
 
-.prod-img1 {
+.prod-peek {
     display: flex;
-    flex-direction: row;
-    width: 20px;
-    height: 20px;
-    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap:wrap;
 }
 
-.prod-img2 {
+.prod-img {
+    height: 200px;
+    width: 150px;
     display: flex;
-    flex-direction: row;
-    width: 20px;
-    height: 20px;
-    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
 }
 
-.prod-img3 {
-    display: flex;
-    flex-direction: row;
-    width: 20px;
-    height: 20px;
-    margin: auto;
-}
-
-.prod-img4 {
-    display: flex;
-    flex-direction: row;
-    width: 20px;
-    height: 20px;
-    margin: auto;
+.prod-img img {
+    width: 100%;
+    height: auto;
 }
 
 .sub {
-    font-size: 18px;
+    font-size: 12px;
+}
+
+.quote-section {
+    display: flex;
+    text-align: center;
+    background-color: #E2E7EB;
+    padding: 5vh 14vh;
+}
+
+.quote {
+    color: #6b7079;
+    font-family:sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 30px;
+    text-align: left;
+    padding: 0;
+}
+
+.quote-auth {
+    font-style: normal;
+    text-align: right;
     color: black;
+    padding: 0;
+    margin: 0;
 }
 
 .cta {
@@ -170,7 +179,6 @@ li a {
     padding: 15px;
     background-color: #3882F6;
     border-radius: 7px;
-    width: 90vh;
 }
 
 .cta-text {
