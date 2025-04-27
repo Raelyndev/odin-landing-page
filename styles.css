@@ -46,7 +46,7 @@ h4 {
 }
 
 .navbar {
-    margin: 0;
+    margin-right: 22vh;
     padding: 0;
     text-align: right;
 }
@@ -71,6 +71,7 @@ li a {
     display: flex;
     color: white;
     text-align: left;
+    margin-left: 19.5vh;
 
 }
 
@@ -98,8 +99,7 @@ li a {
     border-radius: 7px;
     margin: 0;
     padding: 5px 15px;
-    width: 8vh;
-    height: 2.5vh;
+    border-style: none;
 }
 
 .hero-img {
@@ -185,27 +185,24 @@ li a {
     font-size: 10px;
     color: white;
     text-align: left;
-    margin: 1vh 5vh 1vh 4vh;
+    margin: 1vh 4vh 1vh 4vh;
     line-height: 2px;
 }
 
 .cta-button-wrapper {
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
-    margin: 1vh 8vh 0vh 0vh;
-    padding: 0;
-    
-}
-.cta-button {
-    color: white;
-    border: #ffffff 2px solid;
-    text-align: center;
-    border-radius: 7px;
-    margin: 2vh;
+    margin: 2vh 20vh 2vh 2vh;
     padding: 3px;
     width: 12vh;
     height: 2.5vh;
+    border: #ffffff 2px solid;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.cta-button {
+    background-color:#3882F6;
+    border-style: none;
+    color: white;
 }
 
 .foot-text {
@@ -223,3 +220,4 @@ li a {
     padding: 0;
     margin: 0;
 }
+
